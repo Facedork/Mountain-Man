@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
+a, button {
+    cursor: pointer;
+}
+
 /*
 ========================================
 NAVIGATION
@@ -124,6 +128,11 @@ div.comment img {
     height: 20px;
 }
 
+.postcontent a {
+    color: black;
+    text-decoration: none;
+}
+
 p.comment {
     cursor: pointer;
     flex-grow: 1;
@@ -175,6 +184,10 @@ footer {
 
 .footerright a {
     text-decoration: underline;
+}
+
+.social a {
+    text-decoration: none;
 }
 
 .newsletter {
@@ -310,6 +323,11 @@ section#allposts {
     font-weight: 400;
     margin-top: 280px;
     margin-bottom: 0;
+}
+
+.blogpost a {
+    text-decoration: none;
+    color: white;
 }
 
 .blogpost {
