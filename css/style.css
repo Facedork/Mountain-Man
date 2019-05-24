@@ -546,9 +546,11 @@ phone format
     }
 
     header {
+        margin-top: 10px;
         height: 700px;
         color: white;
     }
+
 
     nav ul {
         flex-wrap: wrap;
@@ -597,11 +599,11 @@ phone format
     }
 
     .blognav {
-        margin-top: -230px !important;
+        margin-top: -210px !important;
     }
 
     .contactinfo {
-        margin-top: -270px !important;
+        margin-top: -250px !important;
     }
 
     .contactform {
@@ -629,4 +631,15 @@ phone format
         width: 110%;
     }
 
+    nav.hoofd ul li{
+        margin-left: 70px !important;
+        font-size: 1.6rem;
+        border-bottom: 1px white solid;
+        padding: 7.5px 0;
+        margin: 0 6rem;
+    }
+
+    footer {
+
+    }
 }
