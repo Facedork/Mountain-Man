@@ -496,6 +496,9 @@ iPad formaat
         margin-left: -100px;
     }
 
+    .contactform button{
+        margin-left: 74%;
+    }
 }
 
 /*
@@ -561,9 +564,17 @@ phone format
         align-self: center;
         width: 100%;
     }
+    .contactinfo h2 {
+        font-size: 3rem;
+    }
+
+    .contactinfo p {
+        font-size: 1.2rem;
+    }
 
     label.newsletter {
         margin-left: -15%;
+        font-size: 1.2rem;
     }
 
     button.newsletter {
@@ -572,15 +583,50 @@ phone format
 
     input.newsletter {
         width: 95%;
+        font-size: 1.2rem;
         margin-left: -15%;
+    }
+
+    .subtitle {
+        display: none;
     }
 
     section.footer div {
         margin-left: -10%;
+        font-size: 1.2rem;
     }
 
     .blognav {
         margin-top: -230px !important;
+    }
+
+    .contactinfo {
+        margin-top: -270px !important;
+    }
+
+    .contactform {
+        width: 100%;
+    }
+
+    .contactform input{
+        margin-left: -40%;
+        width: 400px;
+        height: 100px;
+        font-size: 1.2rem;
+    }
+
+    .contactform textarea{
+        width: 400px;
+        margin-left: -40%;
+        height: 140px;
+        font-size: 1.2rem;
+    }
+
+    .contactform button{
+        height: 100px;
+        font-size: 1.2rem;
+        margin-left: 0;
+        width: 110%;
     }
 
 }
