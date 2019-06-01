@@ -422,7 +422,7 @@ div#post9 {
 
 nav.blognav {
     margin-top: -70px;
-    border: 15px solid white;
+    padding: 17px;
     background-color: white;
     display: flex;
     justify-content: space-between;
