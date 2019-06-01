@@ -196,16 +196,18 @@ footer {
 }
 
 input.newsletter {
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 1rem;
     margin-top: 10px;
 }
 
 button.newsletter {
     padding: 1rem;
+    padding-top: calc(1rem + 1px);
+    padding-bottom: calc(1rem + 1px);
     color: white;
-    background-color: black;
-    border: 2px solid black;
+    background-color: #000;
+    border: none;
 }
 
 p {
