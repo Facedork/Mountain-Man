@@ -14,6 +14,7 @@
     <header>
         <h1 class="none">Mountain Man</h1>
         <nav class="hoofd">
+            <!-- MAIN NAVIGATION -->
             <h2 class="none">navigation</h2>
             <ul class="wrapper">
                 <li><a href="index.html">Home</a></li>
@@ -25,20 +26,26 @@
             </ul>
         </nav>
         <section>
+            <!-- TITLE / SUBTITLE -->
             <h2 class="title"><a href="#">Mountain man</a></h2>
             <p class="subtitle"><i>Mark Jonson Photography</i></p>
         </section>
     </header>
     <section class="wrapper contactinfo">
+        <!-- CONTACT FORM / CONTENT -->
         <h2 class="none">Contact form</h2>
         <p class="getInTouch">Get in touch</p>
         <p><strong>Mark Jonson</strong> | 500 Terry Francois St, San Francisco, CA 94158 | <a href="mailto:info@mysite.com">info@mysite.com</a></p>
         <form class="contactform">
-            <input type="text" name="Name" placeholder="Name"><br />
-            <input type="email" name="Email" placeholder="Email"><br />
-            <textarea name="Message" placeholder="Type your Message here"></textarea><br />
+            <label class="none" for="name">Name</label>
+            <input id="name" type="text" name="Name" placeholder="Name"><br /> <!-- NAME -->
+            <label class="none" for="email">Email</label>
+            <input id="email" type="email" name="Email" placeholder="Email"><br /> <!-- EMAIL -->
+            <label class="none" for="message">Message</label>
+            <textarea id="message" name="Message" placeholder="Type your Message here"></textarea><br /> <!-- MESSAGE -->
             <button>
                 Submit
+                <!-- SUBMIT FORM -->
             </button>
         </form>
     </section>
@@ -46,7 +53,9 @@
         <hr>
         <section class="footer wrapper">
             <h2 class="none">footer</h2>
+            <!-- FOOTER -->
             <section class="footerleft">
+                <!-- NEWSLETTER -->
                 <h3 class="none">mailing list</h3>
                 <form action="#">
                     <label class="newsletter" for="email">Join our mailing list</label><br />
@@ -55,6 +64,7 @@
                 </form>
             </section>
             <section class="footerright">
+                <!-- SOCIALS -->
                 <h3 class="none">socials</h3>
                 <div class="social">
                     <a href="#" title="go to our Facebook page">
@@ -90,6 +100,4 @@
             </section>
         </section>
     </footer>
-</body>
-
-</html>
+</body></html>
