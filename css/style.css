@@ -229,7 +229,7 @@ section.contactinfo {
     margin-bottom: 200px;
 }
 
-.contactinfo h2 {
+.contactinfo p.getInTouch {
     padding-top: 100px;
     font-family: 'Josefin Slab', serif;
     text-transform: uppercase;
@@ -602,7 +602,7 @@ phone format
         font-size: 1.2rem;
     }
 
-    .contactinfo h2 {
+    .contactinfo p.getInTouch {
         font-size: 3rem;
     }
 
