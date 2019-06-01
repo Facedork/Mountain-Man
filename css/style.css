@@ -234,7 +234,11 @@ section.contactinfo {
     font-family: 'Josefin Slab', serif;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.8rem;
+}
+
+.contactinfo p {
+    font-size: 1.2rem;
 }
 
 .contactinfo p,
