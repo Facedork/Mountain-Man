@@ -5,3 +5,5 @@ All icons are from flaticon.com
 
 Title font is : Josephin Slab : https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700&display=swap
 Paragraph font is : Times New Roman
+
+by Elian Van Cutsem - 1ICT5
