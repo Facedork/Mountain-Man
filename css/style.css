@@ -649,7 +649,7 @@ phone format
     .contactform input {
         margin-left: -40%;
         width: 400px;
-        height: 100px;
+        height: 50px;
         font-size: 1.2rem;
     }
 
@@ -661,10 +661,10 @@ phone format
     }
 
     .contactform button {
-        height: 100px;
+        height: 50px;
         font-size: 1.2rem;
-        margin-left: 0;
-        width: 110%;
+        margin-left: -40%;
+        width: 177%;
     }
 
     nav.hoofd ul li {
