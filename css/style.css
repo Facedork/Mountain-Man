@@ -32,6 +32,11 @@ nav ul li a.active {
     color: #d9d9f9;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 /*
 ====================================
 TITLES
