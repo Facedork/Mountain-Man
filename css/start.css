@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700&display=swap');
+
+.none {
+    display: none;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+
+.socialicon {
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.2rem;
+}
+
+section.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin-bottom: 50px;
+}
+
+.footerleft {
+    margin-left: 1.8rem;
+}
+
+.footerright {
+    margin-right: 1.8rem;
+}
+
+.footerright p {
+    font-size: 0.8rem;
+}
+
+.footerright a {
+    text-decoration: underline;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.newsletter {
+    font-family: "times new roman", serif;
+}
+
+input.newsletter {
+    border: 1px solid black;
+    padding: 1rem;
+    margin-top: 10px;
+}
+
+button.newsletter {
+    padding: 1rem;
+    padding-top: calc(1rem + 1px);
+    padding-bottom: calc(1rem + 1px);
+    color: white;
+    background-color: #000;
+    border: none;
+}

@@ -1,0 +1,154 @@
+/*
+==============================================
+BLOG PAGE
+==============================================
+*/
+
+section#allposts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blogpostinfo img {
+    float: right;
+    margin-top: -45px;
+    margin-right: 20px;
+    width: 5px;
+    height: 5px;
+}
+
+.blogpostinfo p {
+    margin-left: 20px;
+    font-size: 0.8rem;
+}
+
+.blogpost h4 {
+    margin: 0 20px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 280px;
+    margin-bottom: 0;
+}
+
+.blogpost a {
+    text-decoration: none;
+    color: white;
+}
+
+.blogpost {
+    width: 45%;
+    height: 450px;
+    color: white;
+    margin: 0 2.5%;
+    margin-bottom: 5%;
+}
+
+div.eye {
+    display: flex;
+    margin: 0 20px;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+div.eye p {
+    margin-top: 0px;
+    margin-left: -200px;
+}
+
+.blogpost img {
+    height: 20px;
+    width: 20px;
+}
+
+div#post1 {
+    background-image: url("../img/blog/wolf.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div#post2 {
+    background-image: url("../img/blog/bear.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div#post3 {
+    background-image: url("../img/blog/horses.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div#post4 {
+    background-image: url("../img/blog/birds.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div#post5 {
+    background-image: url("../img/blog/orleans.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div#post6 {
+    background-image: url("../img/blog/flock.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div#post7 {
+    background-image: url("../img/blog/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div#post8 {
+    background-image: url("../img/blog/above.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div#post9 {
+    background-image: url("../img/blog/winter.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.blogpost hr {
+    margin: 10px 20px;
+}
+
+nav.blognav {
+    margin-top: -80px;
+    padding: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.blognav ul {
+    margin-top: 0;
+    margin-left: -40px;
+}
+
+.blognav ul li a {
+    color: black;
+}
+
+#search {
+    justify-self: right;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.blognav a.active {
+    color: green;
+}
+
+.blognav a:hover {
+    color: green;
+}

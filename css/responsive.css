@@ -1,0 +1,222 @@
+/*
+=================================================================
+iPad formaat
+=================================================================
+*/
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        width: 80%;
+    }
+
+    section.footer {
+        flex-wrap: wrap;
+    }
+
+
+    .footerleft {
+        width: 100%;
+        margin-left: 25%;
+        align-self: center;
+    }
+
+    .footerright {
+        margin-top: 40px;
+        width: 100%;
+        margin-left: 25%;
+    }
+
+    .footerright p {
+        font-size: 1.2rem;
+        margin-left: -12%;
+    }
+
+    section.footer div {
+        margin-bottom: 20px;
+    }
+
+    img.socialicon {
+        width: 30px;
+        height: 30px;
+        margin: 0 15px;
+    }
+
+    .postcontent h3 {
+        font-size: 2.6rem;
+    }
+
+    .postcontent p {
+        font-size: 1.3rem;
+    }
+
+    div.comment img {
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .blogpost {
+        height: 350px;
+    }
+
+    .blogpost h4 {
+        margin-top: 170px;
+    }
+
+    .blogpost .eye p {
+        margin-left: -100px;
+    }
+
+    .contactform button {
+        margin-left: 74%;
+    }
+}
+
+/*
+================================================================
+inbetween format
+================================================================
+*/
+@media only screen and (max-width:740px) {
+
+    .footerleft {
+        margin-left: 20%;
+    }
+
+    .footerright {
+        margin-top: 40px;
+        margin-left: 20%;
+    }
+
+    .footerright p {
+        margin-left: -5%;
+    }
+
+    .blogpost {
+        width: 100%;
+        height: 400px;
+    }
+
+    .blogpost h4 {
+        margin-top: 250px;
+    }
+}
+
+/*
+================================================================
+phone format
+================================================================
+*/
+@media only screen and (max-width: 630px) {
+    .wrapper {
+        width: 80%;
+    }
+
+    .title a {
+        color: white;
+    }
+
+    header {
+        margin-top: 10px;
+        height: 700px;
+        color: white;
+    }
+
+
+    nav ul {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .first {
+        margin-top: -200px;
+    }
+
+    nav ul li {
+        margin-bottom: 20px;
+        align-self: center;
+        width: 100%;
+    }
+
+    div.comment img {
+        margin-top: 20px;
+        height: 25px;
+        width: 25px;
+    }
+
+    div.comment p {
+        font-size: 1.2rem;
+    }
+
+    .contactinfo p.getInTouch {
+        font-size: 3rem;
+    }
+
+    .contactinfo p {
+        font-size: 1.2rem;
+    }
+
+    label.newsletter {
+        margin-left: -15%;
+        font-size: 1.2rem;
+    }
+
+    button.newsletter {
+        display: none;
+    }
+
+    input.newsletter {
+        width: 95%;
+        font-size: 1.2rem;
+        margin-left: -15%;
+    }
+
+    .subtitle {
+        display: none;
+    }
+
+    section.footer div {
+        margin-left: -10%;
+        font-size: 1.2rem;
+    }
+
+    .blognav {
+        margin-top: -210px !important;
+    }
+
+    .contactinfo {
+        margin-top: -250px !important;
+    }
+
+    .contactform {
+        width: 100%;
+    }
+
+    .contactform input {
+        margin-left: -40%;
+        width: 400px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+
+    .contactform textarea {
+        width: 400px;
+        margin-left: -40%;
+        height: 140px;
+        font-size: 1.2rem;
+    }
+
+    .contactform button {
+        height: 50px;
+        font-size: 1.2rem;
+        margin-left: -40%;
+        width: 177%;
+    }
+
+    nav.hoofd ul li {
+        margin-left: 70px !important;
+        font-size: 1.6rem;
+        border-bottom: 1px white solid;
+        padding: 7.5px 0;
+        margin: 0 6rem;
+    }
+}
